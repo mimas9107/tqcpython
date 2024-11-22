@@ -1,6 +1,8 @@
 t=0
 while(t!=-9999):
-    t=eval(input())
+    t=eval(input()) 
+    if t== -9999: break 
+    
     if(t<60):
         print("E")
     elif(t<70):
