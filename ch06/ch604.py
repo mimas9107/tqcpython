@@ -4,8 +4,8 @@
 S=[]
 ## (2)相對應元素的個數之陣列
 C=[]
-orig=[eval(input()) for i in range(10)]  
-# orig=[34,18,22,32,18,29,30,38,42,18]
+# orig=[eval(input()) for i in range(10)]  
+orig=[34,18,22,32,18,29,30,38,42,18]
 target=[eval(str(e)) for e in orig]
 # 跑 len(orig)次
 for i in range(len(target),0,-1):

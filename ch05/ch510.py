@@ -4,7 +4,16 @@ Created on Fri Nov 22 11:30:52 2024
 
 @author: user
 """
-
+def compute2(n):
+    if n==0:
+        return 0
+    if n==1:
+        return 1
+    
+    if n>1:
+        return compute2(n-1)+compute2(n-2)
+    
+    
 def compute(n):
     if n==0:
         return 0
@@ -17,15 +26,11 @@ def compute(n):
             tmp=f0+f1
             f0=f1
             f1=tmp
-            print(i, tmp)
-
-
-print(compute(0))            
-print(compute(1))
-print(compute(2))
-print(compute(3))
-print(compute(5))
-print(compute(10))
+            # print(i, tmp)
+        return tmp
+n=eval(input())
+for i in range(n): 
+    print(compute2(i),end=' ')
         
     
     

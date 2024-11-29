@@ -1,3 +1,10 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Fri Nov 29 08:09:59 2024
+
+@author: #08 劉志文
+"""
+## 第4第1題
 
 
 No1=0
