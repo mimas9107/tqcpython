@@ -18,7 +18,7 @@ while(subjects != 'end'):
     if subjects=='end':
         break
     else:
-        X.add(subjects)
+        Y.add(subjects)
 
 #(1)X union Y
 #(2)X intersect Y
@@ -26,6 +26,6 @@ while(subjects != 'end'):
 #(4)X ^ Y
 
 print(sorted(X | Y))
-print(sorted(X.intersection(Y)))
-print(sorted(Y.difference(X)))
+print(sorted(X & Y))
+print(sorted(Y - X))
 print(sorted(X ^ Y))

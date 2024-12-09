@@ -31,6 +31,6 @@ if (len(s) >= 8):
         #     p+=1        
 # if (l>=1 and u>=1 and p>=1 and d>=1 and l+p+u+d==len(s)):
 if (l>=1 and u>=1 and d>=1 and l+u+d==len(s)):
-    print("Valid Password")
+    print("Valid password")
 else:
-    print("Invalid Password")
+    print("Invalid password")

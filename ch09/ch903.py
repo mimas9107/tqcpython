@@ -12,3 +12,4 @@ ff=open(filename,'r')
 buf=ff.read()
 print(buf)
 ff.close()
+## 這題有錯

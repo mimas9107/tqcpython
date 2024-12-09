@@ -11,5 +11,5 @@ imin=matrix.index(min(matrix))
 # 3 4 5 => (1,0) (1,1) (1,2)
 # 6 7 8 => (2,0) (2,1) (2,2)
 
-print(f"Index of the largest number {imax} is: ({imax//3}, {imax % 3})")
-print(f"Index of the smallest number {imin} is: ({imin//3}, {imin % 3})")
+print(f"Index of the largest number {max(matrix)} is: ({imax//3}, {imax % 3})")
+print(f"Index of the smallest number {min(matrix)} is: ({imin//3}, {imin % 3})")
