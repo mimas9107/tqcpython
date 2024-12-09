@@ -1,5 +1,5 @@
-matrix=[eval(input()) for i in range(9)]
-# matrix=[6,4,8,39,12,3,-3,49,33]
+# matrix=[eval(input()) for i in range(9)]
+matrix=[6,4,8,39,12,3,-3,49,33]
 
 imax=matrix.index(max(matrix))
 imin=matrix.index(min(matrix))
