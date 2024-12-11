@@ -34,3 +34,8 @@ if (l>=1 and u>=1 and d>=1 and l+u+d==len(s)):
     print("Valid password")
 else:
     print("Invalid password")
+
+print("len= ",len(s))
+print("l= ",l)
+print("u= ",u)
+print("d= ",d)
