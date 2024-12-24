@@ -13,12 +13,12 @@ def findroot(a,b,c):
         root1=(-b+(det)**0.5)/(2*a)
         root2=(-b-(det)**0.5)/(2*a)
     
-        print(f"{root1:}")
+        print(f"{root1}")
     else:
         root1=(-b+(det)**0.5)/(2*a)
         root2=(-b-(det)**0.5)/(2*a)
     
-        print(f"{root1}, {root2:}")
+        print(f"{root1}, {root2}")
     
 aa=eval(input())
 bb=eval(input())
