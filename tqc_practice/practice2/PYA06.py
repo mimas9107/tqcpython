@@ -1,0 +1,22 @@
+#609
+
+print("Enter matrix 1:")
+m111=eval(input("[1, 1]: "))
+m112=eval(input("[1, 2]: "))
+m121=eval(input("[2, 1]: "))
+m122=eval(input("[2, 2]: "))
+print("Enter matrix 2:")
+m211=eval(input("[1, 1]: "))
+m212=eval(input("[1, 2]: "))
+m221=eval(input("[2, 1]: "))
+m222=eval(input("[2, 2]: "))
+
+print("Matrix 1:")
+print(f"{m111} {m112}")
+print(f"{m121} {m122}")
+print("Matrix 2:")
+print(f"{m211} {m212}")
+print(f"{m221} {m222}")
+print("Sum of 2 matrices:")
+print(f"{m111+m211} {m112+m212}")
+print(f"{m121+m221} {m122+m222}")
