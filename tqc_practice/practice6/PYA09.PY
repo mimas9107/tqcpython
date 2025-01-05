@@ -4,10 +4,10 @@ n=eval(input())
 f=open(filename,'r')
 buf=f.read()
 buf=buf.replace('\n',' ').split(' ')
-print(buf)
+# print(buf)
 tmp=[]
 for e in buf:
-    if buf.count(e) == 3:
+    if buf.count(e) == n:
         tmp.append(e)
         # print(e)
 for e in sorted(set(tmp)):

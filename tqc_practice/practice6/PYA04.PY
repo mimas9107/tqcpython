@@ -7,11 +7,20 @@ while(True):
     if(kg == -9999): break    
     BMI=kg/(height/100)**2
     print(f"BMI: {BMI:.2f}")
-    if(BMI>=30):
-        print("State: fat")
-    elif(BMI<30):
-        print("State: over weight")
+    # if(BMI>=30):
+    #     print("State: fat")
+    # elif(25<=BMI<30):
+    #     print("State: over weight")
+    # elif(18.5<=BMI<25):
+    #     print("State: normal")
+    # elif(BMI<18.5):
+    #     print("State: under weight")
+    if(BMI<18.5):
+        print("State: under weight")
     elif(BMI<25):
         print("State: normal")
-    elif(BMI<18.5):
-        print("State: under weight")
+    elif(BMI<30):
+        print("State: over weight")
+    elif(BMI>=30):
+        print("State: fat")
+
